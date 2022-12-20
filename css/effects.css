@@ -48,3 +48,7 @@
   transform: scale(0.5);
   transition: transform 1s;
 }
+
+.ex-6-img:hover {
+  filter: grayscale(1);
+}
