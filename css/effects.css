@@ -106,3 +106,43 @@
     transform: rotate(270deg);
   }
 }
+
+
+.ex-12-button:hover >.ex-12-top-white  {
+  animation-name: translate-top;
+  animation-duration: 2s;
+}
+
+@keyframes translate-top {
+  0% {
+    transform: translate(0px);
+  }
+
+  50% {
+    transform: translate(110px);
+  }
+
+  100% {
+    transform: translate(0px);
+  }
+}
+
+.ex-12-button:hover >.ex-12-bottom-white  {
+  animation-name: translate-bottom;
+  animation-duration: 2s;
+}
+
+@keyframes translate-bottom {
+ 
+  0% {
+    transform: translate(0px);
+  }
+
+  50% {
+    transform: translate(-90px);
+  }
+
+  100% {
+    transform: translate(0px);
+  }
+}
