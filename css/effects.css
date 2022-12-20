@@ -146,3 +146,67 @@
     transform: translate(0px);
   }
 }
+
+.ex-13-button:hover >.ex-13-top-white {
+  animation-name: rotation-top;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+
+@keyframes rotation-top {
+  0% {
+    transform: translate(0px);
+  }
+
+  20% {
+    transform: translate(130px, 0px);
+  }
+
+  40% {
+    transform: translate(130px, 70px);
+  }
+
+  60% {
+    transform: translate(-30px, 70px);
+  }
+
+  75% {
+    transform: translate(-30px, 0px);
+  }
+
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+.ex-13-button:hover >.ex-13-bottom-white {
+  animation-name: rotation-bottom;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+
+@keyframes rotation-bottom {
+  0% {
+    transform: translate(0px);
+  }
+
+  20% {
+    transform: translate(-130px, 0px);
+  }
+
+  40% {
+    transform: translate(-130px, -70px);
+  }
+
+  60% {
+    transform: translate(50px, -70px);
+  }
+
+  75% {
+    transform: translate(50px, 0px);
+  }
+
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
