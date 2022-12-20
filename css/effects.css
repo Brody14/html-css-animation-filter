@@ -24,3 +24,12 @@
   border-radius: 50%;
   transition: border-radius 1s;
 }
+
+.ex-4-square {
+  transition: opacity 1s;
+}
+
+.ex-4-square:hover {
+  opacity: 0;
+  transition: opacity 1s;
+}
